@@ -1,16 +1,15 @@
-#include <iostream>
-using namespace std;
-
-int add(int a, int b) {
-    return a + b;
+int modulus(int a, int b) {
+    return a % b;
 }
 
-int subtract(int a, int b) {
-    return a - b;
+float percentage(int a, int b) {
+    return (static_cast<float>(a) / b) * 100;
 }
 
-int main() {
-    cout << "Addition: " << add(5, 3) << endl;
-    cout << "Subtraction: " << subtract(5, 3) << endl;
-    return 0;
+int quotient(int a, int b) {
+    return a / b;
+}
+
+int square(int a) {
+    return a * a;
 }
