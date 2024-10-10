@@ -1,16 +1,17 @@
-#include <iostream>
-using namespace std;
+#include <cmath>
 
-int add(int a, int b) {
-    return a + b;
+float square_root(int a) {
+    return sqrt(a);
 }
 
-int subtract(int a, int b) {
-    return a - b;
+int cube(int a) {
+    return a * a * a;
 }
 
-int main() {
-    cout << "Addition: " << add(5, 3) << endl;
-    cout << "Subtraction: " << subtract(5, 3) << endl;
-    return 0;
+float area_of_rectangle(float length, float width) {
+    return length * width;
+}
+
+float area_of_circle(float radius) {
+    return M_PI * radius * radius;
 }
