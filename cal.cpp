@@ -1,4 +1,5 @@
 #include <cmath>
+#include <corecrt_math_defines.h>
 
 float square_root(int a) {
     return sqrt(a);
